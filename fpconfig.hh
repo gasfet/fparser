@@ -8,6 +8,13 @@
 |* (See lgpl.txt and gpl.txt for the license text.)                        *|
 \***************************************************************************/
 
+// Auto-generated code in fpoptimizer.cc and extrasrc/ raise
+// hundreds of warnings.
+#if defined(__GNUC__) && __GNUC__ >= 7
+#pragma GCC diagnostic ignored "-Wimplicit-fallthrough"
+#pragma GCC diagnostic ignored "-Wmisleading-indentation"
+#endif
+
 // Configuration file
 // ------------------
 
