@@ -46,7 +46,8 @@ set(SOURCES fparser.cc fpoptimizer.cc)
 
 remove(CMAKE_CXX_FLAGS -Dfparser_EXPORTS)
 
-ADD_LIBRARY(fparser SHARED ${SOURCES})
+#ADD_LIBRARY(fparser SHARED ${SOURCES})
+ADD_LIBRARY(fparser STATIC ${SOURCES})
 
 set_target_properties(fparser PROPERTIES VERSION ${LIB_VERSION_STRING} SOVERSION ${LIB_VERSION_MAJOR})
 
